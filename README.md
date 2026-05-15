@@ -1,24 +1,32 @@
 # AWS Linux EC2 Project
 
 ## Project Overview
-This project demonstrates hosting a website on AWS EC2 using Ubuntu Linux and Apache web server.
+Deployed a secure Linux web server on AWS EC2 using Ubuntu and Apache. Configured IAM users, SSH access, Security Groups, and hosted a sample website.
 
 ## Technologies Used
 - AWS EC2
-- Ubuntu Linux
-- Apache
 - IAM
+- Ubuntu Linux
+- Apache Web Server
 - SSH
-- EBS
+- Git & GitHub
 
-## Steps Performed
-1. Created IAM user
-2. Launched Ubuntu EC2 instance
-3. Configured Security Groups
-4. Connected using SSH
-5. Installed Apache
-6. Hosted website
+## Project Architecture
+EC2 Instance → Ubuntu → Apache → Website Deployment
 
-## Outcome
-Successfully hosted a website publicly using AWS cloud infrastructure..
+## Screenshots
 
+### IAM User Creation
+![IAM](screenshotss/iam-user-creation.png.png)
+
+### Security Group Inbound Rules
+![SG](screenshotss/security-group-inbound-rules.png.png)
+
+### SSH Connection Success
+![SSH](screenshotss/ssh-connection-success.png.png)
+
+### Apache Installation
+![Apache](screenshotss/apache-installation.png.png)
+
+### Website Output
+![Website](screenshotss/website-output.png.png)
